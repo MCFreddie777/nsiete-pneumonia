@@ -75,7 +75,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+*/**/.ipynb_checkpoints/
 
 # PyCharm project structure
 .idea
@@ -132,3 +132,6 @@ dmypy.json
 .pyre/.idea
 .DS_Store
 **/.ipynb_checkpoints/**/*
+
+wandb/
+data/chest_xray/
